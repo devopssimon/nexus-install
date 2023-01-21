@@ -1,3 +1,12 @@
+# Install and configure Nexus Repository Server
+
+Note that I used a Hetzner cloud server for this installation. In the instructions below from step 14 onwards I talk about a volume mount at `/mnt/HC_Volume_26908811` You should replace this with what ever volume you have created. Although a seperate volume is not required to run Nexus it is highly reconmended so as to make backing up your data and expanding the volume when required easier.
+
+## Hetzner cloud servers.
+If you would like to follow along with a Hetzner cloud server of your own, you can get €20 of free credit if you sign up with the follwoing link https://hetzner.cloud/?ref=iuXD8IUOAbHO
+
+## Steps
+
 1. SSH into the Nexus Server
 2. yum update -y
 3. yum install nano
@@ -47,3 +56,6 @@ Navigate to http://ip-address:8081
 Login with Admin and the password you copied
 Change password
 Select Enable anonymous access
+
+## Watch my videos
+
